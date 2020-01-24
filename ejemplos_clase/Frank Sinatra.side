@@ -355,15 +355,33 @@
       ],
       "value": ""
     }, {
-      "id": "b907c775-f0d1-4793-bec9-0a80348a2fbb",
+      "id": "43cfafec-a02d-4936-8b78-d962930f51d8",
       "comment": "",
       "command": "assertText",
-      "target": "css=.main",
-      "targets": [
-        ["css=.main", "css:finder"],
-        ["xpath=//section", "xpath:position"]
-      ],
-      "value": "Song successfully added\\nHola1\\nRelease Date: 19 January 0020\\nLength: 5 minutes 20 seconds\\nSoy una prueba\\nNobody has liked this song so far!\\nedit this song"
+      "target": "id=flash",
+      "targets": [],
+      "value": "Song successfully added"
+    }, {
+      "id": "60f0ccbc-f665-4be7-86b3-4fe914e07e5b",
+      "comment": "",
+      "command": "assertText",
+      "target": "//h1[contains(text(),\"Hola1\")]",
+      "targets": [],
+      "value": "Hola1"
+    }, {
+      "id": "6edfd3b0-4a7e-47e5-bcd7-a51946807ce8",
+      "comment": "",
+      "command": "assertText",
+      "target": "//p[contains(text(),\"Length\")]",
+      "targets": [],
+      "value": "Length: 5 minutes 20 seconds"
+    }, {
+      "id": "0290e364-9030-49d3-a3e2-bef7453356e8",
+      "comment": "",
+      "command": "assertText",
+      "target": "//pre[contains(text(),\"Soy una prueba\")]",
+      "targets": [],
+      "value": "Soy una prueba"
     }, {
       "id": "4401e0f8-cdb9-45f7-9b08-0841091e6b25",
       "comment": "",
